@@ -1,0 +1,356 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C82F0F961DB0C5E5009FFBC3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C82F0F951DB0C5E5009FFBC3 /* main.m */; };
+		C82F0F991DB0C5E5009FFBC3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C82F0F981DB0C5E5009FFBC3 /* AppDelegate.m */; };
+		C82F0F9C1DB0C5E5009FFBC3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C82F0F9B1DB0C5E5009FFBC3 /* ViewController.m */; };
+		C82F0F9F1DB0C5E5009FFBC3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C82F0F9D1DB0C5E5009FFBC3 /* Main.storyboard */; };
+		C82F0FA11DB0C5E6009FFBC3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C82F0FA01DB0C5E6009FFBC3 /* Assets.xcassets */; };
+		C82F0FA41DB0C5E6009FFBC3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C82F0FA21DB0C5E6009FFBC3 /* LaunchScreen.storyboard */; };
+		C82F0FAE1DB0C62B009FFBC3 /* Business_matrix.m in Sources */ = {isa = PBXBuildFile; fileRef = C82F0FAD1DB0C62B009FFBC3 /* Business_matrix.m */; };
+		C82F0FB81DB0C683009FFBC3 /* CCRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = C82F0FB71DB0C683009FFBC3 /* CCRouter.m */; };
+		C82F0FBB1DB0CF9D009FFBC3 /* CCBusinessManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C82F0FBA1DB0CF9D009FFBC3 /* CCBusinessManager.m */; };
+		C82F0FBE1DB0D0E0009FFBC3 /* Business_loginmodule.m in Sources */ = {isa = PBXBuildFile; fileRef = C82F0FBD1DB0D0E0009FFBC3 /* Business_loginmodule.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C82F0F911DB0C5E5009FFBC3 /* RouterDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RouterDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C82F0F951DB0C5E5009FFBC3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C82F0F971DB0C5E5009FFBC3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C82F0F981DB0C5E5009FFBC3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C82F0F9A1DB0C5E5009FFBC3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C82F0F9B1DB0C5E5009FFBC3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C82F0F9E1DB0C5E5009FFBC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C82F0FA01DB0C5E6009FFBC3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C82F0FA31DB0C5E6009FFBC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C82F0FA51DB0C5E6009FFBC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C82F0FAC1DB0C62B009FFBC3 /* Business_matrix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Business_matrix.h; sourceTree = "<group>"; };
+		C82F0FAD1DB0C62B009FFBC3 /* Business_matrix.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Business_matrix.m; sourceTree = "<group>"; };
+		C82F0FB41DB0C65B009FFBC3 /* RouterDemoPrefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RouterDemoPrefix.pch; sourceTree = SOURCE_ROOT; };
+		C82F0FB61DB0C683009FFBC3 /* CCRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCRouter.h; sourceTree = "<group>"; };
+		C82F0FB71DB0C683009FFBC3 /* CCRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCRouter.m; sourceTree = "<group>"; };
+		C82F0FB91DB0CF9D009FFBC3 /* CCBusinessManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CCBusinessManager.h; path = manager/CCBusinessManager.h; sourceTree = "<group>"; };
+		C82F0FBA1DB0CF9D009FFBC3 /* CCBusinessManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CCBusinessManager.m; path = manager/CCBusinessManager.m; sourceTree = "<group>"; };
+		C82F0FBC1DB0D0E0009FFBC3 /* Business_loginmodule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Business_loginmodule.h; sourceTree = "<group>"; };
+		C82F0FBD1DB0D0E0009FFBC3 /* Business_loginmodule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Business_loginmodule.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C82F0F8E1DB0C5E5009FFBC3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C82F0F881DB0C5E5009FFBC3 = {
+			isa = PBXGroup;
+			children = (
+				C82F0F931DB0C5E5009FFBC3 /* RouterDemo */,
+				C82F0F921DB0C5E5009FFBC3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C82F0F921DB0C5E5009FFBC3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C82F0F911DB0C5E5009FFBC3 /* RouterDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C82F0F931DB0C5E5009FFBC3 /* RouterDemo */ = {
+			isa = PBXGroup;
+			children = (
+				C82F0FB51DB0C683009FFBC3 /* router */,
+				C82F0FAB1DB0C62B009FFBC3 /* businesses */,
+				C82F0F9A1DB0C5E5009FFBC3 /* ViewController.h */,
+				C82F0F9B1DB0C5E5009FFBC3 /* ViewController.m */,
+				C82F0FB41DB0C65B009FFBC3 /* RouterDemoPrefix.pch */,
+				C82F0F941DB0C5E5009FFBC3 /* Supporting Files */,
+				C82F0FB91DB0CF9D009FFBC3 /* CCBusinessManager.h */,
+				C82F0FBA1DB0CF9D009FFBC3 /* CCBusinessManager.m */,
+			);
+			path = RouterDemo;
+			sourceTree = "<group>";
+		};
+		C82F0F941DB0C5E5009FFBC3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C82F0F9D1DB0C5E5009FFBC3 /* Main.storyboard */,
+				C82F0FA01DB0C5E6009FFBC3 /* Assets.xcassets */,
+				C82F0FA21DB0C5E6009FFBC3 /* LaunchScreen.storyboard */,
+				C82F0FA51DB0C5E6009FFBC3 /* Info.plist */,
+				C82F0F971DB0C5E5009FFBC3 /* AppDelegate.h */,
+				C82F0F981DB0C5E5009FFBC3 /* AppDelegate.m */,
+				C82F0F951DB0C5E5009FFBC3 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C82F0FAB1DB0C62B009FFBC3 /* businesses */ = {
+			isa = PBXGroup;
+			children = (
+				C82F0FAC1DB0C62B009FFBC3 /* Business_matrix.h */,
+				C82F0FAD1DB0C62B009FFBC3 /* Business_matrix.m */,
+				C82F0FBC1DB0D0E0009FFBC3 /* Business_loginmodule.h */,
+				C82F0FBD1DB0D0E0009FFBC3 /* Business_loginmodule.m */,
+			);
+			path = businesses;
+			sourceTree = "<group>";
+		};
+		C82F0FB51DB0C683009FFBC3 /* router */ = {
+			isa = PBXGroup;
+			children = (
+				C82F0FB61DB0C683009FFBC3 /* CCRouter.h */,
+				C82F0FB71DB0C683009FFBC3 /* CCRouter.m */,
+			);
+			path = router;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C82F0F901DB0C5E5009FFBC3 /* RouterDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C82F0FA81DB0C5E6009FFBC3 /* Build configuration list for PBXNativeTarget "RouterDemo" */;
+			buildPhases = (
+				C82F0F8D1DB0C5E5009FFBC3 /* Sources */,
+				C82F0F8E1DB0C5E5009FFBC3 /* Frameworks */,
+				C82F0F8F1DB0C5E5009FFBC3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RouterDemo;
+			productName = RouterDemo;
+			productReference = C82F0F911DB0C5E5009FFBC3 /* RouterDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C82F0F891DB0C5E5009FFBC3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = snailCC;
+				TargetAttributes = {
+					C82F0F901DB0C5E5009FFBC3 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 64X99D4TJ7;
+					};
+				};
+			};
+			buildConfigurationList = C82F0F8C1DB0C5E5009FFBC3 /* Build configuration list for PBXProject "RouterDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C82F0F881DB0C5E5009FFBC3;
+			productRefGroup = C82F0F921DB0C5E5009FFBC3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C82F0F901DB0C5E5009FFBC3 /* RouterDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C82F0F8F1DB0C5E5009FFBC3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C82F0FA41DB0C5E6009FFBC3 /* LaunchScreen.storyboard in Resources */,
+				C82F0FA11DB0C5E6009FFBC3 /* Assets.xcassets in Resources */,
+				C82F0F9F1DB0C5E5009FFBC3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C82F0F8D1DB0C5E5009FFBC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C82F0FBE1DB0D0E0009FFBC3 /* Business_loginmodule.m in Sources */,
+				C82F0FB81DB0C683009FFBC3 /* CCRouter.m in Sources */,
+				C82F0FAE1DB0C62B009FFBC3 /* Business_matrix.m in Sources */,
+				C82F0F9C1DB0C5E5009FFBC3 /* ViewController.m in Sources */,
+				C82F0F991DB0C5E5009FFBC3 /* AppDelegate.m in Sources */,
+				C82F0F961DB0C5E5009FFBC3 /* main.m in Sources */,
+				C82F0FBB1DB0CF9D009FFBC3 /* CCBusinessManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C82F0F9D1DB0C5E5009FFBC3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C82F0F9E1DB0C5E5009FFBC3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C82F0FA21DB0C5E6009FFBC3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C82F0FA31DB0C5E6009FFBC3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C82F0FA61DB0C5E6009FFBC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C82F0FA71DB0C5E6009FFBC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C82F0FA91DB0C5E6009FFBC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = RouterDemoPrefix.pch;
+				INFOPLIST_FILE = RouterDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = snail.snailgame.RouterDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C82F0FAA1DB0C5E6009FFBC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = RouterDemoPrefix.pch;
+				INFOPLIST_FILE = RouterDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = snail.snailgame.RouterDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C82F0F8C1DB0C5E5009FFBC3 /* Build configuration list for PBXProject "RouterDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C82F0FA61DB0C5E6009FFBC3 /* Debug */,
+				C82F0FA71DB0C5E6009FFBC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C82F0FA81DB0C5E6009FFBC3 /* Build configuration list for PBXNativeTarget "RouterDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C82F0FA91DB0C5E6009FFBC3 /* Debug */,
+				C82F0FAA1DB0C5E6009FFBC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C82F0F891DB0C5E5009FFBC3 /* Project object */;
+}

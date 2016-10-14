@@ -1,0 +1,30 @@
+//
+//  RouterDemoPrefix.pch
+//  RouterDemo
+//
+//  Created by caochao on 16/10/14.
+//  Copyright © 2016年 snailCC. All rights reserved.
+//
+
+#ifndef RouterDemoPrefix_pch
+#define RouterDemoPrefix_pch
+#import <Foundation/Foundation.h>
+typedef void (^CCRouterCallbackBlock)(NSDictionary *response,NSError *error);
+#pragma mark - name level
+
+#define MODULELLEVEL @"Module"
+#define BUSINESSLEVEL @"Business"
+#define ACTIONLEVEL @"Action"
+
+#pragma mark - router constent
+
+#define BUSINESS @"business"
+#define ACTION @"action"
+#define COMPLETION @"completion"
+#define ERRORMODIN @"CCRouterErrorDomin"
+
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* RouterDemoPrefix_pch */
